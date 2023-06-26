@@ -1,0 +1,6 @@
+(library
+ (name easy_as_123)
+ (libraries base stdio ppx_show.runtime)
+ (inline_tests)
+ (preprocess
+  (pps ppx_jane ppx_show)))
